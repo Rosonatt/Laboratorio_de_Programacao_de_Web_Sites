@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P1 rosonatt</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: Arial, Ubuntu, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        table, th, td {
+            padding: 12px;
+            color: white;
+            text-align: center;
+            border: 3px solid #226699;
+            border-collapse: collapse;
+            font-size: 110%;
+        }
+
+        table {
+            border: 10px solid darkblue;
+            margin: auto;
+        }
+
+        table .geral {
+            background-color: #228855;
+        }
+
+        table .disponiveis {
+            font-size: 24px;
+            background-color: darkgreen;
+            color: yellow;
+        }
+
+        table .preco {
+            font-weight: bold;
+            background-color: yellow;
+            color: red;
+        }
+
+        table .modelo {
+            color: black;
+            background-color: yellow;
+        }
+
+        table .aro29, table .aro20 {
+            background-color: #2299dd;
+        }
+
+        table .imagem {
+            background-color: yellow;
+        }
+
+        table .rodape {
+            border: none;
+            color: yellow;
+            background-color: darkgreen;
+            text-align: left;
+            font-style: italic;
+        }
+
+        table .rodape span {
+            color: yellow;
+            font-weight: bold;
+        }
+
+        img {
+            max-width: 70px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Loja de Bicicletas Brasuca</h1>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4" class="disponiveis">Modelos disponíveis</td>
+            </tr>
+            <tr class="geral">
+                <td>Tipo</td>
+                <td>Modelo</td>
+                <td>Foto</td>
+                <td>Preço</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2" class="aro20">ARO 20</td>
+                <td class="modelo">COLLI MAX BOY</td>
+                <td class="imagem"><img src="https://images.tcdn.com.br/img/img_prod/1211830/bicicleta_aro_20_colli_max_boy_45_1_28d70e769a0a8d00c758fccbb931a18e.jpeg" alt="COLLI MAX BOY"></td>
+                <td class="preco">R$ 790,00</td>
+            </tr>
+            
+            <tr>
+                <td class="modelo">Bike do batman -  preta</td>
+                <td class="imagem"><img class="imgs" src="https://m.media-amazon.com/images/I/81N65Ak5GdL._AC_UF1000,1000_QL80_.jpg" alt="Bike do batman"></td>
+                <td class="preco">R$ 989,00</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2" class="aro29">ARO 29</td>
+                <td class="modelo">ALUM SHIMANO preta</td>
+                <td class="imagem"><img src="https://imgcentauro-a.akamaihd.net/1366x1366/M0Z0R902.jpg" alt="ALUM SHIMANO preta"></td>
+                <td class="preco">R$ 1270,00</td>
+            </tr>
+            
+            <tr>
+                <td class="modelo">NAZCA SHIMANO - branca</td>
+                <td class="imagem"><img src="https://images.tcdn.com.br/img/img_prod/1023283/bicicleta_aro_29_rava_nazca_shimano_12v_branca_preto_5603_2_59ab279ed0ed387bc59df08892b91105.jpg" alt="NAZCA SHIMANO branca"></td>
+                <td class="preco">R$ 3200,00</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="4" class="rodape"><span>Dados:</span> Criados pelo professor em 2024.</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

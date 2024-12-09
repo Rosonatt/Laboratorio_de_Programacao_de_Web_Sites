@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c044f;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #347870;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:#825ba8;
+}
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,<svg fill='%23333' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+.radio-group, .checkbox-group {
+    margin-bottom: 15px;
+}
+.radio-group label, .checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button {
+    padding: 12px 20px;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+button[type="reset"] {
+    background-color: #9a95a6;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #a889cc;
+}
+button[type="reset"]:hover {
+    background-color: #7f8c8d;
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    button[type="reset"] {
+        margin-left: 0;
+    }
+}

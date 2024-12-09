@@ -1,0 +1,41 @@
+table, th, td {
+	border: solid 2px black;
+	border-collapse: collapse;
+	padding: 8px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+img {
+	width: 65px;
+}
+
+thead, tfoot {
+	background-color: darkblue;
+	color: white;
+}
+
+.preco {
+	color: red;
+	font-weight: bold;
+}
+
+td {
+	background-color: #FFFCCC;
+	color: blue;
+}
+
+tfoot td {
+	background-color: darkblue;
+	color: white;
+	text-align: left;
+}
+
+.categoria {
+	background-color: #F9CC77;
+}
+
+p {
+	color: red;
+	font-weight: bold;
+}
