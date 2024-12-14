@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>questão 1</title>
+</head>
+<body>
+    <p id="cor">Vamos mudar a cor deste parágrafo para red</p>
+    <p id="texto">Clique no botão para alterar o texto</p>
+    <button onclick="alterarTexto()">Clique aqui</button>
+
+    <script>
+        function alterarTexto() {
+            document.getElementById("cor").style.color = "red";
+            alert("Texto alterado!");
+            document.getElementById("texto").innerHTML = "O texto foi alterado!";
+        }
+    </script>
+</body>
+</html>

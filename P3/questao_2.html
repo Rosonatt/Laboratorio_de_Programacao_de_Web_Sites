@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>questão 2</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            text-align: center;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+            flex-direction: row-reverse;
+        }
+        .bola-1, .bola-2, .bola-3 {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        .bola-1 { background-color: red; }
+        .bola-2 { background-color: green; }
+        .bola-3 { background-color: purple; }
+
+        .bola-1:hover, .bola-2:hover, .bola-3:hover {
+            border-radius: 0;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questão 2</h1>
+    <div id="container">
+        <div class="bola-1"></div>
+        <div class="bola-2"></div>
+        <div class="bola-3"></div>
+    </div>
+</body>
+</html>
